@@ -781,7 +781,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: #106eea;
+  background: #000000;
   padding: 12px;
   color: #fff;
   border-radius: 50px;
@@ -792,7 +792,7 @@ section {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #062b5b;
+  color: #000000;
 }
 
 .counts .count-box p {
@@ -958,7 +958,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #106eea;
+  color: #000000;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1123,7 +1123,6 @@ section {
     margin-top: 30px;
   }
 }
-
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
