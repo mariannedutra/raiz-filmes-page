@@ -547,6 +547,23 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+details > summary {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  line-height: 24px;
+  text-align: center;
+}
+
+details > p {
+  font-size: 13px;
+  margin-top: 25px;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+}
+summary::-webkit-details-marker {
+  display: none
+}
 
 .services .section-title h3{
   color: #ffffff;
@@ -567,6 +584,7 @@ section {
   background-size: cover;
   position: relative;
 }
+
 
 @media (min-width: 1024px) {
   .services {
@@ -592,7 +610,7 @@ section {
 .single-service {
   padding: 40px 30px;
   background-color: #ffffff;
-  border-radius: 10px;
+  border-radius: 25px;
   position: relative;
   z-index: 2;
   transition: all 0.4s ease;
@@ -604,6 +622,7 @@ section {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   line-height: 24px;
+  text-align: center;
   
 }
 
@@ -668,7 +687,7 @@ section {
   bottom: 0;
   height: 100%;
   width: 100%;
-  background-color: #494949;
+  background-color: #b6b300;
   content: "";
   z-index: -1;
   border-radius: 10px;
