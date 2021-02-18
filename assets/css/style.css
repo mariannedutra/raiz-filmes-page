@@ -552,6 +552,7 @@ details > summary {
   text-transform: uppercase;
   line-height: 24px;
   text-align: center;
+  font-weight: 600;
 }
 
 details > p {
