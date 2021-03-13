@@ -547,6 +547,15 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+details[open] summary ~ * {
+  animation: sweep .8s ease-in-out;
+}
+
+@keyframes sweep {
+  0%    {opacity: 0; margin-left: -10px}
+  100%  {opacity: 1; margin-left: 0px}
+}
+
 details > summary {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
